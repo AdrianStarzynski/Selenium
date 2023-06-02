@@ -1,16 +1,23 @@
-import com.google.common.annotations.VisibleForTesting;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
 public class SeleniumTest {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
     }
+
     @Test
-    public void openGooglePage(){
+    public void openGooglePage() {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\Adrian\\Documents\\GitHub\\Selenium\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+        System.setProperty("webdriver.edge.driver", "C:\\Users\\Adrian\\Documents\\GitHub\\Selenium\\msedgedriver.exe");
+        WebDriver driver = new EdgeDriver();
+        WebDriver driver2 = new ChromeDriver();
+
         driver.get("https://github.com/AdrianStarzynski");
+        driver2.get("https://github.com/AdrianStarzynski");
+
     }
-}
+    }
