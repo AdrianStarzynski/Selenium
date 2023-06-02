@@ -6,3 +6,5 @@ public class SeleniumTest {
         WebDriver driver = new ChromeDriver();
     }
 }
+
+    Miniaturka wykładu
