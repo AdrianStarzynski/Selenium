@@ -8,7 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13541893-9325-4c92-8b9e-7c3e7e9c6c89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SecondTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CssSelectorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelectorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +26,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bd522a0a-0d3c-435f-847c-b684171215ed" />
+        <option name="url" value="git@github.com:AdrianStarzynski/Selenium.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,35 +73,12 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.SecondTest">
-    <configuration name="FirstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CssSelectorsTest.findElements">
+    <configuration name="CssSelectorsTest.findElements" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstTest.openGooglePage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstTest" />
-      <option name="METHOD_NAME" value="openGooglePage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManagerWebDriver.openBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ManagerWebDriver" />
-      <option name="METHOD_NAME" value="openBrowser" />
+      <option name="MAIN_CLASS_NAME" value="CssSelectorsTest" />
+      <option name="METHOD_NAME" value="findElements" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -106,11 +97,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondTest.ShopTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectorTest.findElements" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SecondTest" />
+      <option name="MAIN_CLASS_NAME" value="SelectorTest" />
+      <option name="METHOD_NAME" value="findElements" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdTest.ShopTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThirdTest" />
       <option name="METHOD_NAME" value="ShopTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdTest.ThirdTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThirdTest" />
+      <option name="METHOD_NAME" value="ThirdTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -120,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CssSelectorsTest.findElements" />
+        <item itemvalue="TestNG.SelectorTest.findElements" />
+        <item itemvalue="TestNG.ThirdTest.ShopTest" />
         <item itemvalue="TestNG.SecondTest" />
-        <item itemvalue="TestNG.SecondTest.ShopTest" />
-        <item itemvalue="TestNG.FirstTest" />
-        <item itemvalue="TestNG.FirstTest.openGooglePage" />
-        <item itemvalue="TestNG.ManagerWebDriver.openBrowser" />
+        <item itemvalue="TestNG.ThirdTest.ThirdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685824065069</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="SecondTest">
+      <created>1685825203097</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685825203097</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +214,7 @@
     <MESSAGE value="Selenium java update in pom.xml" />
     <MESSAGE value="chromeDriver" />
     <MESSAGE value="ManagerWebDriver, FirstTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="ManagerWebDriver, FirstTest" />
+    <MESSAGE value="SecondTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="SecondTest" />
   </component>
 </project>
